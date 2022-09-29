@@ -1,0 +1,5 @@
+--Expresiones regulares
+
+SELECT email
+FROM platzi.alumnos
+WHERE email ~*'[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}';
